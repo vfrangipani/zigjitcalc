@@ -1,0 +1,17 @@
+.{
+    .name = .jit_caculator,
+
+    .version = "0.0.0",
+
+    .fingerprint = 0xc0172a47f2a9cc44, // Changing this has security and trust implications.
+
+    .minimum_zig_version = "0.15.0-dev.75+03123916e",
+
+    .dependencies = .{},
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
